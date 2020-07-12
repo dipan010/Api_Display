@@ -5,7 +5,7 @@ import { User } from './user.model';
   providedIn: 'root'
 })
 export class DataService {
- apiUrl = 'https://dev.freshreview.co:19013/location/listAll';
+ apiUrl = 'https://jsonplaceholder.typicode.com/users';
 
   constructor(private _http: HttpClient) { }
 
